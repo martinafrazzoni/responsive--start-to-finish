@@ -1,6 +1,14 @@
-
-//1. Config files and helpers (vari, functions, mixins)
+//1. Config files and helpers (var, functions, mixins)
+@import 'https://fonts.googleapis.com/css2?family=Roboto:300,400,700,900';
+@import 'abstracts/colors';
+@import 'abstracts/type';
 //2. vendor
+@import 'vendor/normalize';
 //3. base styles (fonts, typography)
+@import 'base/base';
 //4. layout
+@import 'layout/grid'; 
+@import 'layout/header';
+@import 'layout/hero';
+
 //5. components (buttons etc)
