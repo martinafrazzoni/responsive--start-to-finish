@@ -4,11 +4,20 @@
 @import 'abstracts/type';
 //2. vendor
 @import 'vendor/normalize';
+
+@import 'layout/grid';
 //3. base styles (fonts, typography)
 @import 'base/base';
+@import 'base/typography';
 //4. layout
-@import 'layout/grid'; 
+
+@import 'layout/nav';
 @import 'layout/header';
 @import 'layout/hero';
+@import 'layout/home-promo';
+@import 'layout/home-sales-points';
+@import 'layout/footer';
 
 //5. components (buttons etc)
+@import 'components/buttons';
+@import 'components/cta';
